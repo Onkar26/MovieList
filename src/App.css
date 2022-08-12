@@ -1,0 +1,24 @@
+
+/* use normal css syntax */
+/* dont use "" here */
+
+.movie:hover {
+   filter: brightness(100%);
+    
+}
+
+.movie{
+    filter: brightness(70%);
+    margin: 10px;
+    height: 380px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(4, 4, 4);
+    background-color: white;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.75);}
+
